@@ -1,0 +1,1338 @@
+2017-01-15 13:57:52.3508 INFO ********** Application Start **********
+2017-01-15 13:58:05.4649 INFO ********** Application End **********
+2017-01-15 14:25:59.2877 INFO ********** Application Start **********
+2017-01-15 14:25:59.5508 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:26:10.3190 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:26:13.4663 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:26:15.4996 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:32:31.6373 INFO ********** Application Start **********
+2017-01-15 14:32:32.2113 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:33:51.2516 INFO ********** Application Start **********
+2017-01-15 14:33:51.8195 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:34:40.8964 INFO ********** Application Start **********
+2017-01-15 14:34:41.5020 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:35:33.9947 INFO ********** Application Start **********
+2017-01-15 14:35:34.5410 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:38:47.4822 INFO ********** Application Start **********
+2017-01-15 14:38:47.7634 FATAL System.InvalidOperationException: An error occurred when trying to create a controller of type 'Web.Controllers.HomeController'. Make sure that the controller has a parameterless public constructor. ---> System.MissingMethodException: No parameterless constructor defined for this object.
+   at System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   at System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.RuntimeType.CreateInstanceDefaultCtor(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   at System.Activator.CreateInstance(Type type)
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   --- End of inner exception stack trace ---
+   at System.Web.Mvc.DefaultControllerFactory.DefaultControllerActivator.Create(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.GetControllerInstance(RequestContext requestContext, Type controllerType)
+   at System.Web.Mvc.DefaultControllerFactory.CreateController(RequestContext requestContext, String controllerName)
+   at System.Web.Mvc.MvcHandler.ProcessRequestInit(HttpContextBase httpContext, IController& controller, IControllerFactory& factory)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContextBase httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.BeginProcessRequest(HttpContext httpContext, AsyncCallback callback, Object state)
+   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.BeginProcessRequest(HttpContext context, AsyncCallback cb, Object extraData)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+2017-01-15 14:52:49.1171 INFO ********** Application Start **********
+2017-01-15 15:13:10.7548 INFO ********** Application Start **********
+2017-01-15 15:15:09.6144 INFO ********** Application Start **********
+2017-01-15 15:16:04.8306 INFO ********** Application Start **********
+2017-01-15 15:17:28.6469 INFO ********** Application Start **********
+2017-01-15 16:35:32.1549 INFO ********** Application Start **********
+2017-01-15 16:37:14.9083 INFO ********** Application Start **********
+2017-01-15 16:43:44.6648 INFO ********** Application Start **********
+2017-01-15 16:45:40.8668 INFO ********** Application Start **********
+2017-01-15 16:45:59.6823 INFO ********** Application End **********
+2017-01-15 16:57:04.4543 INFO ********** Application Start **********
+2017-01-15 16:57:24.4769 INFO ********** Application End **********
+2017-01-15 17:05:55.2437 INFO ********** Application Start **********
+2017-01-15 17:06:49.4934 INFO ********** Application Start **********
+2017-01-15 17:16:47.4756 INFO ********** Application Start **********
+2017-01-15 17:38:01.9752 INFO ********** Application Start **********
+2017-01-15 17:39:07.1803 INFO ********** Application Start **********
+2017-01-15 17:39:31.1689 INFO ********** Application Start **********
+2017-01-15 18:02:27.7590 INFO ********** Application Start **********
+2017-01-15 18:02:28.4676 TRACE Opened connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.4676 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:02:28.4825 TRACE 
+
+2017-01-15 18:02:28.4825 TRACE -- Executing at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.5461 TRACE -- Completed in 50 ms with result: 9
+
+2017-01-15 18:02:28.5461 TRACE 
+
+2017-01-15 18:02:28.5595 TRACE Closed connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.6655 TRACE Opened connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.7316 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:02:28.7316 TRACE 
+
+2017-01-15 18:02:28.7512 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:02:28.7512 TRACE -- Executing at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.8126 TRACE -- Completed in 44 ms with result: SqlDataReader
+
+2017-01-15 18:02:28.8126 TRACE 
+
+2017-01-15 18:02:28.8416 TRACE Closed connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.8416 TRACE Opened connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.8674 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:02:28.8734 TRACE 
+
+2017-01-15 18:02:28.8734 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:02:28.8734 TRACE -- Executing at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.9314 TRACE -- Completed in 39 ms with result: SqlDataReader
+
+2017-01-15 18:02:28.9364 TRACE 
+
+2017-01-15 18:02:28.9364 TRACE Closed connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:28.9548 TRACE Opened connection at 1/15/2017 6:02:28 PM -05:00
+
+2017-01-15 18:02:29.0108 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:02:29.0158 TRACE 
+
+2017-01-15 18:02:29.0158 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:02:29.0158 TRACE -- Executing at 1/15/2017 6:02:29 PM -05:00
+
+2017-01-15 18:02:29.0628 TRACE -- Completed in 31 ms with result: SqlDataReader
+
+2017-01-15 18:02:29.0628 TRACE 
+
+2017-01-15 18:02:29.0628 TRACE Closed connection at 1/15/2017 6:02:29 PM -05:00
+
+2017-01-15 18:06:52.4861 INFO ********** Application Start **********
+2017-01-15 18:06:53.1538 TRACE Opened connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.1538 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:06:53.1538 TRACE 
+
+2017-01-15 18:06:53.1538 TRACE -- Executing at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.2053 TRACE -- Completed in 30 ms with result: 9
+
+2017-01-15 18:06:53.2053 TRACE 
+
+2017-01-15 18:06:53.2053 TRACE Closed connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.3246 TRACE Opened connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.3916 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:06:53.3916 TRACE 
+
+2017-01-15 18:06:53.3916 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:06:53.4056 TRACE -- Executing at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.4456 TRACE -- Completed in 35 ms with result: SqlDataReader
+
+2017-01-15 18:06:53.4516 TRACE 
+
+2017-01-15 18:06:53.4516 TRACE Closed connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.4676 TRACE Opened connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.4676 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:06:53.4846 TRACE 
+
+2017-01-15 18:06:53.4846 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:06:53.4846 TRACE -- Executing at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.5236 TRACE -- Completed in 21 ms with result: SqlDataReader
+
+2017-01-15 18:06:53.5286 TRACE 
+
+2017-01-15 18:06:53.5286 TRACE Closed connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.5446 TRACE Opened connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.6223 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:06:53.6223 TRACE 
+
+2017-01-15 18:06:53.6223 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:06:53.6223 TRACE -- Executing at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:06:53.6693 TRACE -- Completed in 27 ms with result: SqlDataReader
+
+2017-01-15 18:06:53.6693 TRACE 
+
+2017-01-15 18:06:53.6693 TRACE Closed connection at 1/15/2017 6:06:53 PM -05:00
+
+2017-01-15 18:08:40.6927 INFO ********** Application Start **********
+2017-01-15 18:08:41.4225 TRACE Opened connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.4225 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:08:41.4225 TRACE 
+
+2017-01-15 18:08:41.4345 TRACE -- Executing at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.5053 TRACE -- Completed in 64 ms with result: 9
+
+2017-01-15 18:08:41.5053 TRACE 
+
+2017-01-15 18:08:41.5143 TRACE Closed connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.6218 TRACE Opened connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.6993 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:08:41.7054 TRACE 
+
+2017-01-15 18:08:41.7054 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:08:41.7054 TRACE -- Executing at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.7504 TRACE -- Completed in 30 ms with result: SqlDataReader
+
+2017-01-15 18:08:41.7504 TRACE 
+
+2017-01-15 18:08:41.7644 TRACE Closed connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.7644 TRACE Opened connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.7834 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:08:41.7834 TRACE 
+
+2017-01-15 18:08:41.7834 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:08:41.7979 TRACE -- Executing at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.8286 TRACE -- Completed in 25 ms with result: SqlDataReader
+
+2017-01-15 18:08:41.8286 TRACE 
+
+2017-01-15 18:08:41.8286 TRACE Closed connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.8496 TRACE Opened connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.9271 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:08:41.9271 TRACE 
+
+2017-01-15 18:08:41.9381 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:08:41.9381 TRACE -- Executing at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:08:41.9781 TRACE -- Completed in 28 ms with result: SqlDataReader
+
+2017-01-15 18:08:41.9821 TRACE 
+
+2017-01-15 18:08:41.9821 TRACE Closed connection at 1/15/2017 6:08:41 PM -05:00
+
+2017-01-15 18:09:13.1104 INFO ********** Application End **********
+2017-01-15 18:09:28.6635 INFO ********** Application Start **********
+2017-01-15 18:10:07.3056 INFO ********** Application Start **********
+2017-01-15 18:10:08.2577 TRACE Opened connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.2577 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:10:08.2665 TRACE 
+
+2017-01-15 18:10:08.2665 TRACE -- Executing at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.3205 TRACE -- Completed in 43 ms with result: 9
+
+2017-01-15 18:10:08.3205 TRACE 
+
+2017-01-15 18:10:08.3305 TRACE Closed connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.4347 TRACE Opened connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.5083 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:10:08.5143 TRACE 
+
+2017-01-15 18:10:08.5143 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:10:08.5143 TRACE -- Executing at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.5693 TRACE -- Completed in 35 ms with result: SqlDataReader
+
+2017-01-15 18:10:08.5693 TRACE 
+
+2017-01-15 18:10:08.5823 TRACE Closed connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.5823 TRACE Opened connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.6033 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:10:08.6084 TRACE 
+
+2017-01-15 18:10:08.6084 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:10:08.6084 TRACE -- Executing at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.6493 TRACE -- Completed in 26 ms with result: SqlDataReader
+
+2017-01-15 18:10:08.6533 TRACE 
+
+2017-01-15 18:10:08.6533 TRACE Closed connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.6533 TRACE Opened connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.7594 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:10:08.7634 TRACE 
+
+2017-01-15 18:10:08.7634 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:10:08.7634 TRACE -- Executing at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:10:08.8034 TRACE -- Completed in 25 ms with result: SqlDataReader
+
+2017-01-15 18:10:08.8034 TRACE 
+
+2017-01-15 18:10:08.8133 TRACE Closed connection at 1/15/2017 6:10:08 PM -05:00
+
+2017-01-15 18:17:19.8707 INFO ********** Application Start **********
+2017-01-15 18:17:20.9808 TRACE Opened connection at 1/15/2017 6:17:20 PM -05:00
+
+2017-01-15 18:17:20.9868 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:17:20.9868 TRACE 
+
+2017-01-15 18:17:20.9868 TRACE -- Executing at 1/15/2017 6:17:20 PM -05:00
+
+2017-01-15 18:17:21.0664 TRACE -- Completed in 65 ms with result: 9
+
+2017-01-15 18:17:21.0664 TRACE 
+
+2017-01-15 18:17:21.0664 TRACE Closed connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.1746 TRACE Opened connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.2426 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:17:21.2426 TRACE 
+
+2017-01-15 18:17:21.2516 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:17:21.2516 TRACE -- Executing at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.2977 TRACE -- Completed in 37 ms with result: SqlDataReader
+
+2017-01-15 18:17:21.2977 TRACE 
+
+2017-01-15 18:17:21.3117 TRACE Closed connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.3117 TRACE Opened connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.3307 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:17:21.3307 TRACE 
+
+2017-01-15 18:17:21.3412 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:17:21.3412 TRACE -- Executing at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.3688 TRACE -- Completed in 19 ms with result: SqlDataReader
+
+2017-01-15 18:17:21.3738 TRACE 
+
+2017-01-15 18:17:21.3738 TRACE Closed connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.4158 TRACE Opened connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.4674 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:17:21.4674 TRACE 
+
+2017-01-15 18:17:21.4674 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:17:21.4824 TRACE -- Executing at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:17:21.5224 TRACE -- Completed in 34 ms with result: SqlDataReader
+
+2017-01-15 18:17:21.5224 TRACE 
+
+2017-01-15 18:17:21.5314 TRACE Closed connection at 1/15/2017 6:17:21 PM -05:00
+
+2017-01-15 18:49:27.9535 INFO ********** Application Start **********
+2017-01-15 18:49:28.6509 TRACE Opened connection at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.6549 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 18:49:28.6549 TRACE 
+
+2017-01-15 18:49:28.6549 TRACE -- Executing at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.7240 TRACE -- Completed in 56 ms with result: 9
+
+2017-01-15 18:49:28.7240 TRACE 
+
+2017-01-15 18:49:28.7330 TRACE Closed connection at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.8376 TRACE Opened connection at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.9032 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 18:49:28.9032 TRACE 
+
+2017-01-15 18:49:28.9032 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:49:28.9032 TRACE -- Executing at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.9577 TRACE -- Completed in 35 ms with result: SqlDataReader
+
+2017-01-15 18:49:28.9577 TRACE 
+
+2017-01-15 18:49:28.9727 TRACE Closed connection at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.9727 TRACE Opened connection at 1/15/2017 6:49:28 PM -05:00
+
+2017-01-15 18:49:28.9907 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 18:49:28.9907 TRACE 
+
+2017-01-15 18:49:28.9987 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 18:49:28.9987 TRACE -- Executing at 1/15/2017 6:49:29 PM -05:00
+
+2017-01-15 18:49:29.0402 TRACE -- Completed in 30 ms with result: SqlDataReader
+
+2017-01-15 18:49:29.0447 TRACE 
+
+2017-01-15 18:49:29.0447 TRACE Closed connection at 1/15/2017 6:49:29 PM -05:00
+
+2017-01-15 18:49:29.0618 TRACE Opened connection at 1/15/2017 6:49:29 PM -05:00
+
+2017-01-15 18:49:29.1463 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 18:49:29.1463 TRACE 
+
+2017-01-15 18:49:29.1548 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 18:49:29.1548 TRACE -- Executing at 1/15/2017 6:49:29 PM -05:00
+
+2017-01-15 18:49:29.1848 TRACE -- Completed in 20 ms with result: SqlDataReader
+
+2017-01-15 18:49:29.1848 TRACE 
+
+2017-01-15 18:49:29.1848 TRACE Closed connection at 1/15/2017 6:49:29 PM -05:00
+
+2017-01-15 19:08:42.6799 INFO ********** Application Start **********
+2017-01-15 19:08:43.4281 TRACE Opened connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.4281 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 19:08:43.4371 TRACE 
+
+2017-01-15 19:08:43.4371 TRACE -- Executing at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.5845 TRACE -- Completed in 138 ms with result: 9
+
+2017-01-15 19:08:43.5845 TRACE 
+
+2017-01-15 19:08:43.5921 TRACE Closed connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.6910 TRACE Opened connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.7661 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 19:08:43.7661 TRACE 
+
+2017-01-15 19:08:43.7661 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:08:43.7796 TRACE -- Executing at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.8206 TRACE -- Completed in 35 ms with result: SqlDataReader
+
+2017-01-15 19:08:43.8206 TRACE 
+
+2017-01-15 19:08:43.8356 TRACE Closed connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.8446 TRACE Opened connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.8446 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 19:08:43.8606 TRACE 
+
+2017-01-15 19:08:43.8606 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:08:43.8606 TRACE -- Executing at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:43.9202 TRACE -- Completed in 45 ms with result: SqlDataReader
+
+2017-01-15 19:08:43.9202 TRACE 
+
+2017-01-15 19:08:43.9202 TRACE Closed connection at 1/15/2017 7:08:43 PM -05:00
+
+2017-01-15 19:08:45.1129 TRACE Opened connection at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.1129 TRACE Started transaction at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.1219 TRACE CREATE TABLE [dbo].[AspNetRoles] (
+    [Id] [nvarchar](128) NOT NULL,
+    [Name] [nvarchar](256) NOT NULL,
+    CONSTRAINT [PK_dbo.AspNetRoles] PRIMARY KEY ([Id])
+)
+2017-01-15 19:08:45.1219 TRACE 
+
+2017-01-15 19:08:45.1219 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.1734 TRACE -- Completed in 36 ms with result: -1
+
+2017-01-15 19:08:45.1734 TRACE 
+
+2017-01-15 19:08:45.1734 TRACE CREATE TABLE [dbo].[AspNetUserClaims] (
+    [Id] [int] NOT NULL IDENTITY,
+    [UserId] [nvarchar](128) NOT NULL,
+    [ClaimType] [nvarchar](max),
+    [ClaimValue] [nvarchar](max),
+    CONSTRAINT [PK_dbo.AspNetUserClaims] PRIMARY KEY ([Id])
+)
+2017-01-15 19:08:45.1859 TRACE 
+
+2017-01-15 19:08:45.1859 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.2249 TRACE -- Completed in 29 ms with result: -1
+
+2017-01-15 19:08:45.2249 TRACE 
+
+2017-01-15 19:08:45.2339 TRACE CREATE TABLE [dbo].[AspNetUsers] (
+    [Id] [nvarchar](128) NOT NULL,
+    [Email] [nvarchar](256),
+    [EmailConfirmed] [bit] NOT NULL,
+    [PasswordHash] [nvarchar](max),
+    [SecurityStamp] [nvarchar](max),
+    [PhoneNumber] [nvarchar](max),
+    [PhoneNumberConfirmed] [bit] NOT NULL,
+    [TwoFactorEnabled] [bit] NOT NULL,
+    [LockoutEndDateUtc] [datetime],
+    [LockoutEnabled] [bit] NOT NULL,
+    [AccessFailedCount] [int] NOT NULL,
+    [UserName] [nvarchar](256) NOT NULL,
+    CONSTRAINT [PK_dbo.AspNetUsers] PRIMARY KEY ([Id])
+)
+2017-01-15 19:08:45.2339 TRACE 
+
+2017-01-15 19:08:45.2339 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.2886 TRACE -- Completed in 38 ms with result: -1
+
+2017-01-15 19:08:45.2886 TRACE 
+
+2017-01-15 19:08:45.2976 TRACE CREATE TABLE [dbo].[AspNetUserLogins] (
+    [UserId] [nvarchar](128) NOT NULL,
+    [LoginProvider] [nvarchar](128) NOT NULL,
+    [ProviderKey] [nvarchar](128) NOT NULL,
+    [User_Id] [nvarchar](128),
+    CONSTRAINT [PK_dbo.AspNetUserLogins] PRIMARY KEY ([UserId])
+)
+2017-01-15 19:08:45.2976 TRACE 
+
+2017-01-15 19:08:45.2976 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.3466 TRACE -- Completed in 33 ms with result: -1
+
+2017-01-15 19:08:45.3466 TRACE 
+
+2017-01-15 19:08:45.3466 TRACE CREATE TABLE [dbo].[AspNetUserRoles] (
+    [UserId] [nvarchar](128) NOT NULL,
+    [RoleId] [nvarchar](128) NOT NULL,
+    CONSTRAINT [PK_dbo.AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId])
+)
+2017-01-15 19:08:45.3606 TRACE 
+
+2017-01-15 19:08:45.3606 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.4031 TRACE -- Completed in 33 ms with result: -1
+
+2017-01-15 19:08:45.4031 TRACE 
+
+2017-01-15 19:08:45.4031 TRACE CREATE TABLE [dbo].[Cells] (
+    [CellGuid] [uniqueidentifier] NOT NULL,
+    [Description] [nvarchar](max),
+    [isHostile] [bit] NOT NULL,
+    [LocationX] [int] NOT NULL,
+    [LocationY] [int] NOT NULL,
+    [hasPortal] [bit] NOT NULL,
+    [PortalDescription] [nvarchar](max),
+    [GotoMap] [uniqueidentifier] NOT NULL,
+    [GotoX] [int] NOT NULL,
+    [GotoY] [int] NOT NULL,
+    [canGoEast] [bit] NOT NULL,
+    [canGoNorth] [bit] NOT NULL,
+    [canGoSouth] [bit] NOT NULL,
+    [canGoWest] [bit] NOT NULL,
+    [Map_MapGuid] [uniqueidentifier],
+    CONSTRAINT [PK_dbo.Cells] PRIMARY KEY ([CellGuid])
+)
+2017-01-15 19:08:45.4031 TRACE 
+
+2017-01-15 19:08:45.4212 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.4602 TRACE -- Completed in 34 ms with result: -1
+
+2017-01-15 19:08:45.4602 TRACE 
+
+2017-01-15 19:08:45.4691 TRACE CREATE TABLE [dbo].[Maps] (
+    [MapGuid] [uniqueidentifier] NOT NULL,
+    [Name] [nvarchar](max),
+    [Description] [nvarchar](max),
+    [Level] [int] NOT NULL,
+    [isHositle] [bit] NOT NULL,
+    CONSTRAINT [PK_dbo.Maps] PRIMARY KEY ([MapGuid])
+)
+2017-01-15 19:08:45.4691 TRACE 
+
+2017-01-15 19:08:45.4691 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.5160 TRACE -- Completed in 33 ms with result: -1
+
+2017-01-15 19:08:45.5160 TRACE 
+
+2017-01-15 19:08:45.5160 TRACE CREATE TABLE [dbo].[Items] (
+    [ItemGuid] [uniqueidentifier] NOT NULL,
+    [Name] [nvarchar](max),
+    [Description] [nvarchar](max),
+    [isWeapon] [bit] NOT NULL,
+    [isUsable] [bit] NOT NULL,
+    [Weight] [int] NOT NULL,
+    CONSTRAINT [PK_dbo.Items] PRIMARY KEY ([ItemGuid])
+)
+2017-01-15 19:08:45.5290 TRACE 
+
+2017-01-15 19:08:45.5290 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.5630 TRACE -- Completed in 23 ms with result: -1
+
+2017-01-15 19:08:45.5630 TRACE 
+
+2017-01-15 19:08:45.5630 TRACE CREATE TABLE [dbo].[Players] (
+    [PlayerGuid] [uniqueidentifier] NOT NULL,
+    [Name] [nvarchar](max),
+    [MapGuid] [uniqueidentifier] NOT NULL,
+    [LocationX] [int] NOT NULL,
+    [LocationY] [int] NOT NULL,
+    [User_Id] [nvarchar](128),
+    CONSTRAINT [PK_dbo.Players] PRIMARY KEY ([PlayerGuid])
+)
+2017-01-15 19:08:45.5760 TRACE 
+
+2017-01-15 19:08:45.5760 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.6080 TRACE -- Completed in 22 ms with result: -1
+
+2017-01-15 19:08:45.6080 TRACE 
+
+2017-01-15 19:08:45.6080 TRACE CREATE INDEX [IX_UserId] ON [dbo].[AspNetUserClaims]([UserId])
+2017-01-15 19:08:45.6080 TRACE 
+
+2017-01-15 19:08:45.6250 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.6780 TRACE -- Completed in 47 ms with result: -1
+
+2017-01-15 19:08:45.6780 TRACE 
+
+2017-01-15 19:08:45.6875 TRACE CREATE INDEX [IX_User_Id] ON [dbo].[AspNetUserLogins]([User_Id])
+2017-01-15 19:08:45.6875 TRACE 
+
+2017-01-15 19:08:45.6875 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.7365 TRACE -- Completed in 35 ms with result: -1
+
+2017-01-15 19:08:45.7365 TRACE 
+
+2017-01-15 19:08:45.7365 TRACE CREATE INDEX [IX_UserId] ON [dbo].[AspNetUserRoles]([UserId])
+2017-01-15 19:08:45.7505 TRACE 
+
+2017-01-15 19:08:45.7505 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.7795 TRACE -- Completed in 19 ms with result: -1
+
+2017-01-15 19:08:45.7795 TRACE 
+
+2017-01-15 19:08:45.7795 TRACE CREATE INDEX [IX_RoleId] ON [dbo].[AspNetUserRoles]([RoleId])
+2017-01-15 19:08:45.7795 TRACE 
+
+2017-01-15 19:08:45.7979 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.8229 TRACE -- Completed in 20 ms with result: -1
+
+2017-01-15 19:08:45.8269 TRACE 
+
+2017-01-15 19:08:45.8269 TRACE CREATE INDEX [IX_Map_MapGuid] ON [dbo].[Cells]([Map_MapGuid])
+2017-01-15 19:08:45.8269 TRACE 
+
+2017-01-15 19:08:45.8409 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.8759 TRACE -- Completed in 30 ms with result: -1
+
+2017-01-15 19:08:45.8759 TRACE 
+
+2017-01-15 19:08:45.8759 TRACE CREATE INDEX [IX_User_Id] ON [dbo].[Players]([User_Id])
+2017-01-15 19:08:45.8889 TRACE 
+
+2017-01-15 19:08:45.8889 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.9289 TRACE -- Completed in 30 ms with result: -1
+
+2017-01-15 19:08:45.9289 TRACE 
+
+2017-01-15 19:08:45.9369 TRACE ALTER TABLE [dbo].[AspNetUserClaims] ADD CONSTRAINT [FK_dbo.AspNetUserClaims_dbo.AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [dbo].[AspNetUsers] ([Id]) ON DELETE CASCADE
+2017-01-15 19:08:45.9369 TRACE 
+
+2017-01-15 19:08:45.9369 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:45.9789 TRACE -- Completed in 27 ms with result: -1
+
+2017-01-15 19:08:45.9829 TRACE 
+
+2017-01-15 19:08:45.9829 TRACE ALTER TABLE [dbo].[AspNetUserLogins] ADD CONSTRAINT [FK_dbo.AspNetUserLogins_dbo.AspNetUsers_User_Id] FOREIGN KEY ([User_Id]) REFERENCES [dbo].[AspNetUsers] ([Id])
+2017-01-15 19:08:45.9829 TRACE 
+
+2017-01-15 19:08:45.9829 TRACE -- Executing at 1/15/2017 7:08:45 PM -05:00
+
+2017-01-15 19:08:46.0216 TRACE -- Completed in 20 ms with result: -1
+
+2017-01-15 19:08:46.0216 TRACE 
+
+2017-01-15 19:08:46.0306 TRACE ALTER TABLE [dbo].[AspNetUserRoles] ADD CONSTRAINT [FK_dbo.AspNetUserRoles_dbo.AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [dbo].[AspNetRoles] ([Id]) ON DELETE CASCADE
+2017-01-15 19:08:46.0306 TRACE 
+
+2017-01-15 19:08:46.0306 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.0846 TRACE -- Completed in 39 ms with result: -1
+
+2017-01-15 19:08:46.0846 TRACE 
+
+2017-01-15 19:08:46.0940 TRACE ALTER TABLE [dbo].[AspNetUserRoles] ADD CONSTRAINT [FK_dbo.AspNetUserRoles_dbo.AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [dbo].[AspNetUsers] ([Id]) ON DELETE CASCADE
+2017-01-15 19:08:46.0940 TRACE 
+
+2017-01-15 19:08:46.0940 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.1280 TRACE -- Completed in 19 ms with result: -1
+
+2017-01-15 19:08:46.1280 TRACE 
+
+2017-01-15 19:08:46.1280 TRACE ALTER TABLE [dbo].[Cells] ADD CONSTRAINT [FK_dbo.Cells_dbo.Maps_Map_MapGuid] FOREIGN KEY ([Map_MapGuid]) REFERENCES [dbo].[Maps] ([MapGuid])
+2017-01-15 19:08:46.1411 TRACE 
+
+2017-01-15 19:08:46.1411 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.1810 TRACE -- Completed in 31 ms with result: -1
+
+2017-01-15 19:08:46.1850 TRACE 
+
+2017-01-15 19:08:46.1850 TRACE ALTER TABLE [dbo].[Players] ADD CONSTRAINT [FK_dbo.Players_dbo.AspNetUsers_User_Id] FOREIGN KEY ([User_Id]) REFERENCES [dbo].[AspNetUsers] ([Id])
+2017-01-15 19:08:46.1850 TRACE 
+
+2017-01-15 19:08:46.1850 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.2290 TRACE -- Completed in 27 ms with result: -1
+
+2017-01-15 19:08:46.2330 TRACE 
+
+2017-01-15 19:08:46.2330 TRACE CREATE TABLE [dbo].[__MigrationHistory] (
+    [MigrationId] [nvarchar](150) NOT NULL,
+    [ContextKey] [nvarchar](300) NOT NULL,
+    [Model] [varbinary](max) NOT NULL,
+    [ProductVersion] [nvarchar](32) NOT NULL,
+    CONSTRAINT [PK_dbo.__MigrationHistory] PRIMARY KEY ([MigrationId], [ContextKey])
+)
+2017-01-15 19:08:46.2330 TRACE 
+
+2017-01-15 19:08:46.2480 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.2810 TRACE -- Completed in 28 ms with result: -1
+
+2017-01-15 19:08:46.2810 TRACE 
+
+2017-01-15 19:08:46.2810 TRACE INSERT [dbo].[__MigrationHistory]([MigrationId], [ContextKey], [Model], [ProductVersion])
+VALUES (N'201701160008451_InitialCreate', N'Data.Entity.RealmContext',  0x1F8B0800000000000400ED5D5B6FDCB8157E2FD0FF20E8A92DB21EDB418BAD31B30BEFD8CE1A4D6C23E36C92278396E8B1B0BACC4A94D746D15FD687FEA4FE8592A22E94484ABC6834E3A05820F090E247F2F09CC3C3DBB7FFFDF77FE63F3E47A1F304D32C48E2857B7470E83A30F6123F88D70B37470FDF7DEFFEF8C31FFF303FF7A367E797EABBB7E43B5C32CE16EE23429B93D92CF31E6104B28328F0D2244B1ED081974433E027B3E3C3C3BFCF8E8E661043B818CB71E61FF31805112C7EE09FCB24F6E006E520FC90F830CCCA749CB32A509D2B10C16C033CB870CF000207E7B8387A719DD33000B8092B183EB80E88E30401841B78F229832B9426F17AB5C10920BC7DD940FCDD0308335836FCA4F95CB50F87C7A40FB3A66005E5E5194A224DC0A3B7A55066DDE246A2756BA161B151F9905E17A25BB8A7D9E60AA28F4988BBDFADEE6419A6E4D385BB4CA22889A97403981D34A5DE3834EF4DAD035855C87F38230F519EC2450C739482F08D7393DF8781F70FF8729BFC0AE3459C8721DB38DC3C9CD74AC0493769B281297AF9081FCA265FFAAE336B979B750BD6C59832B42B78F8B10ABBCE07F0FC1EC66BF48895FBF87BD7B9089EA15FA594FAF0290EB0C6E34228CDF1CF2BDC60701FC23A7FD65B27F9B7A7D6E3BFFECDBED6F9AC19518571C6EA9F2E431044FA835D177D75237E19A3B7C70239327D5FA12485EF600C5380A07F031082694C3060E94FFA479AC866171A568C07A9B4A76AFCA752D50A35FD02C27C0B555D81A7605D8C8340ACAEF311864566F6186CA847EF6AE41DFDF0224D22E29238652FF2EF56499E7AA4F949CF47B7205D43646D6366E6F5EA2C6B3A4D3F8F40108EE04C156AC131C7439046B0EEE54F09D617106BB7F90664D9EF49EAFF0CB2C7AD1BE80A7A798AD5718540B4D97A6D378F490CAFF2E89EA8FA74758D3634B7BF2717C0C34EFF3C26A5ACF1DE27DEAF498ECE631F47A1F013F22A40F2F33688D4014669CEA9E7C12CBBC0CA0CFD658243EAA1A970787ADBD360E67DB20E62336F5B14DD81CBAD82055DB7BBAB20A390134E7B0AFC5E6BDF52F555CD583C13546E138B1482EA89459AFC9E5884F968A458C46C6D5795DC1B03117E4A5AF89A6CA96AEFEEF4986A43AF1E934FEEE8772235AEB37BB4B8F946A4C4967656E0CACDACCE1E6A9FBD912D21D6700DD322DFEFC0A048B5EFF2C0C04E9A92B443F46F4DA53F839997061BBA81B5E56031C87E4E321484708488AE18CC2F76A15305F3D50EE6116437498A4068BD262950A61C9177094A3E808D9506110CCB8120109683E081F85D720E32643B0805D0151E89C75190B09B1B09E93334E89CD49517A32EF0E438FD8E38968CF5DF7562ED912BAFDDE454FEDCC85717AD5177D5F8F31D786A5CAB99A3AE0B5A58D9C0126F1C7730A5EB790F9F606867F3C57C122083F9446A16A5EAEB1B46379CE14DC6C8302E11D43A0E20DFEF62A712576B661B4DC9FF1B07ABD99F21D83415994E1C41F629239FDBE27C86C1FA516BA34A59C36F42F0A2B7274F4BEC40CB69C5667ACE96DD774D1F63BEDA7188AEBF84A503C42D5D9964CEC7B3793A5EFE34CB122F281A203E00A6AD68F7E83CF61D950334AA1A828338AC28D82E820DB604DCA685FB174E680355D4B19FA88A2EFA91DBB5A7EBF80C861041E7D4A3B72D9620F380CF8F1D969ADF4EC126085372DA0BC80150868D3A88116FAF41EC051B102AF4A15356F1F48DB4ADAEA59B730637302647D20AA3A452BD74A36D56D7D411DB9094E63346F154F591D9371D5616D126AA4859CA8301137D146CC12AE9E3E1C1C151D73A0DC4D16CBF0D3755B017276A29DDCC339105BF91C7552002DF27D3E4BA30A9657223A452BB785B7B72C36C365A151565D82C2D35F1754F125C17A6D7C457354534EB61997A0816C78D52143B3E432E5A0227D031BAD9DFABBA1A7D6363415973848161D3A06A59A36E4DA26872ECA98DC6A378E8111E7898561E0D82302289F019091662B8CE722D9695EB876E1708E80A22EED66AE63A4D042C989738598880EA104A8EC6C4B8CA90FD681A404544D28F56C63BCA90FDB26B5CF50060B95DC5C1506319288CCD4D54B6B0DB81A2644F4754966E660D14A666202A5E995407805175A9EA94CB3AE6D3BECB8A5D77AAB8F4AA7B22D25CCE472B2EB684A01C5ECBE0F1C75A1262AF46F44948B614505F0C083B53D98F928404E1FF0412620EDDFB0424591C282F0F843D297D819274F80501072984B317CEB0F648E255E588751CE14CA339CC59012F1249E034103A316DA59EB9A7CF7CA4C4942EDB65DDC7D67E19DF4B6908351844316DADE7829ECE8AC226EB81AD76EEEA48A9CE9BCFE8E3A632613E93BC829AE341D804F19A791555A6382BFA246AF9DD4AFFC9504431665E26783954B7B6AE09252958C34E2ED951F7E1459066883CCBBA0764FF74E947DC67ADB850326B5755F1A11F3F64D57C5E95217F97672BCDF3303640E4174165D10BDCAD88ACA38AB7214227C71776C8C33410825470657E99847914CB1775F2D274479E2D4F537884F9ACD37A6ED9C689885BF3B6A5AE31264C2C6237304DAC6D3A3A3D08DB19A26A9DCC22C8D6CE7214E63D0F0BC4246B62952F7638B0327D0F15680CDDB1529BA934A67CD1C20294499A18CCA3080E8CC953476DBF5B6131DB39EA889DC7292C64274BA395EC13945623D90C233C8944C55FA8D7C03F3A61D1F95C7564C1F313165A906D802D6873374F1D55F04285051664EBF9627ECA6C52F7D0EB950B547BD747B7816CFC9F0461BB135FE78D495BC75A591A06CD3E1C69D9319BB187CA30466C5B6FE0D9A8825E8C3B8E2654475F2C8AEC386C6763255B5BAB8D50B137AA3F2EE262D2F0AFBEB9DF0AFE242F01FA905A97D258B056863A1E73459F456392B526A7EA0A50675EAA92F5B1BE8AB1BEEA6031F7F5592C2659C38FF157F65BDE8CCF56C7AE2FE7B38875A21ECE171E454BFEE50DFD2E8696DC992BFA2C0E93AC8955DED2E7C0CA744DB4F2A63E8756A66BA2D1DBFA1C184DDE1B5F596C259ABA4AA286FA9E52584A26CAFA26222B48C93DFC3E1CF54D9AA91C6D79FDBDE5CC6892A6B3A6F7DF39674D93F746D1E891A0A9A6150787FAAA262E26DD31A86FA2B7F60D2437DBFB90F64FDB9AFBE46D45A9527590AA1BE56DA42A551DA9BA53CEE254697BA3B7D50984A9E69667D6FABA2B2B280D4498FBE5AD08447A67BD0FCD5E83C7F2DCBB0E22B7AD77ED23A8DE2D88F2AC4D6997A1FC567327811CAB75F7827A8EDE7961296DC51610E27B6B4CFD864D935E9FB35E16F7B66E99C47E50DC20BBCCC8DB84FA5D8242C7BBE790DA7AC21C374B23B5EA039585AB40D6DC81B4A280656EE04EEA0A3495803BEB566C98EE12DC7EF47B7A6DAD01ADC3F8BE9948E217C4B38D40DC82D3F61D7B01C11502C516994C993B7402DC9D84EE27F55455A6D4BFEB3B09E57D8061BA56EE8200FDC475AAEDD985BB7AC970687C50A8D8EAB7701906909C04541F7C0071F08017BBF4C59D7B7C7874DC217EDD1F12D65996F92D27D8CBC4DA1EB60988FCE227907A8F20E5B9682C1E0F0A410BA2B0ED509A4E2EB58068E32075A801D99A6860B83BD397B10F9F17EE3F8B7227CEE5973B5AF48D739D62EB38710E9D7F598F27C7305A35E84F1178FE330B67C622AA016742C3F97A0DA94578A96249E6FC96F7011A85DBD24A3584FC955688028ECAB1F04611A18C83D2044BCA3FE9E39FA8E09FD4EBAC988FD2A469522ECAC27B5A32514E37C50816B353D23D8EE657846C8EA3A1DFF0648DA361D751ADE1CC78A73E358E32F9984672D2CD01D577A2E6BAB59B18A34D8AA8D51A5AD4A2357A547F06A3391EF75E1E07BFE53028E2CA878018AF3D0F9FD584C871ED19CE5C6D120F936981A3F03001E138F68CE22219BF9E95A43B1C7AD69AD0E2D33391558B4DCF0480E3D2331136CFA3678CD2E2D0334661F9F34C405AFB77B2B156708B0C4EDB378E32C571C7EBD372DB596BBF28803432CBB1CDBCC5576762551C5BDDB012EAD1C499ACA747E36DFB7607BECBC566E23BBA3C6C26186D0EB6610DD4656033509F7109D1F64785C6766AFB1347EDE53A6D343EB45DD0CE48DFF1DB71B159B2D9EC80E16CFF296B86A90C6CB46A80BE866303E9630AF9A6B443F6EC45AC1D9233E1E9B9B51458DE2825C4F4A46B327A032B5E2F0B9D923C66D9A24E29D7F80AD9DAF66516DBA5464DEFA594356AA7539812EB9A25D11AA587E2F8A2B632DAE23704CAFB135A632D79DA25ACACEF7EDA04C3AC424037768052D16B0918B7BE0143975EC4DE6D14D2B9D2559D2E70FC2CDD419331EE0D10EED16B5C0BD7BF4FF040D3755A1F2F94B822661923A98DF9425EA59C1EADA7DE01D6BEFEDA742A2A23F19EDACA2FFAAB14B39B0D70FF2950FFF5D7AA369AD4AF7355D164510562EEA82E6C31E370A845AA0854446725A41494320A8A504B0EC201D8CAC171C05586085AC24AB523224209DB95C07BF5EC540821C48C9A7BC83468278296A10B5F498C2982D1A904597FD1A5C052138004A1C91ABBFBC30AA047166837FEDBEFFE1874805D06C0DECEB18EBD79E561DF915138FFECC6ADEDB1D9C70BEADDD360F7E36FCCE3602F8FC9AD3DFAEB0C66C1BA81206F0062E8B5C2BCFA9BCBF821A9C2CD4E8BAA4FBA071110011FC780A7290A1E80877036B9B057FC6F5F8AABBAE4DAE83DF42FE3EB1C6D7284BB0CA3FBB0459D42A2D6BEFA0B0AC3769BE7D7C5F15936461770330372D1F13AFE290F42BF6EF785E0C44A0241C2E1F21237194B442E73AF5F6AA4AB2456042AC55747F1B730DA84182CBB8E57E0099AB40D2BEC7BB806DE4B736D4F06323C106DB1CFCF02B04E419495184D79FC13EBB01F3DFFF03F6ABA53530D880000 , N'6.1.3-40302')
+
+2017-01-15 19:08:46.2956 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.3296 TRACE -- Completed in 29 ms with result: 1
+
+2017-01-15 19:08:46.3296 TRACE 
+
+2017-01-15 19:08:46.3296 TRACE Committed transaction at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.3456 TRACE Opened connection at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.3921 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 19:08:46.3921 TRACE 
+
+2017-01-15 19:08:46.3921 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 19:08:46.4061 TRACE -- Executing at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:08:46.4361 TRACE -- Completed in 24 ms with result: SqlDataReader
+
+2017-01-15 19:08:46.4361 TRACE 
+
+2017-01-15 19:08:46.4361 TRACE Closed connection at 1/15/2017 7:08:46 PM -05:00
+
+2017-01-15 19:11:28.3885 INFO ********** Application Start **********
+2017-01-15 19:11:29.0565 TRACE Opened connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.0605 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 19:11:29.0605 TRACE 
+
+2017-01-15 19:11:29.0605 TRACE -- Executing at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.1135 TRACE -- Completed in 39 ms with result: 9
+
+2017-01-15 19:11:29.1135 TRACE 
+
+2017-01-15 19:11:29.1245 TRACE Closed connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.2466 TRACE Opened connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.3146 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 19:11:29.3146 TRACE 
+
+2017-01-15 19:11:29.3146 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:11:29.3285 TRACE -- Executing at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.3665 TRACE -- Completed in 32 ms with result: SqlDataReader
+
+2017-01-15 19:11:29.3721 TRACE 
+
+2017-01-15 19:11:29.3721 TRACE Closed connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.3721 TRACE Opened connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.3965 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 19:11:29.3965 TRACE 
+
+2017-01-15 19:11:29.4055 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:11:29.4055 TRACE -- Executing at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.4406 TRACE -- Completed in 25 ms with result: SqlDataReader
+
+2017-01-15 19:11:29.4406 TRACE 
+
+2017-01-15 19:11:29.4406 TRACE Closed connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.4605 TRACE Opened connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.5126 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 19:11:29.5126 TRACE 
+
+2017-01-15 19:11:29.5126 TRACE -- p__linq__0: '3181d194-d4de-469d-b47b-694f1b481a5d' (Type = String, Size = 4000)
+
+2017-01-15 19:11:29.5126 TRACE -- Executing at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:11:29.5616 TRACE -- Completed in 30 ms with result: SqlDataReader
+
+2017-01-15 19:11:29.5616 TRACE 
+
+2017-01-15 19:11:29.5616 TRACE Closed connection at 1/15/2017 7:11:29 PM -05:00
+
+2017-01-15 19:12:15.2499 INFO ********** Application Start **********
+2017-01-15 19:12:15.9096 TRACE Opened connection at 1/15/2017 7:12:15 PM -05:00
+
+2017-01-15 19:12:15.9096 TRACE 
+SELECT Count(*)
+FROM INFORMATION_SCHEMA.TABLES AS t
+WHERE t.TABLE_SCHEMA + '.' + t.TABLE_NAME IN ('dbo.AspNetRoles','dbo.AspNetUserClaims','dbo.AspNetUsers','dbo.AspNetUserLogins','dbo.AspNetUserRoles','dbo.Cells','dbo.Maps','dbo.Items','dbo.Players')
+    OR t.TABLE_NAME = 'EdmMetadata'
+2017-01-15 19:12:15.9096 TRACE 
+
+2017-01-15 19:12:15.9236 TRACE -- Executing at 1/15/2017 7:12:15 PM -05:00
+
+2017-01-15 19:12:16.0036 TRACE -- Completed in 74 ms with result: 9
+
+2017-01-15 19:12:16.0036 TRACE 
+
+2017-01-15 19:12:16.0036 TRACE Closed connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.1187 TRACE Opened connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.1882 TRACE SELECT 
+    [GroupBy1].[A1] AS [C1]
+    FROM ( SELECT 
+        COUNT(1) AS [A1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [GroupBy1]
+2017-01-15 19:12:16.1882 TRACE 
+
+2017-01-15 19:12:16.1882 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:12:16.1882 TRACE -- Executing at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.2437 TRACE -- Completed in 38 ms with result: SqlDataReader
+
+2017-01-15 19:12:16.2478 TRACE 
+
+2017-01-15 19:12:16.2478 TRACE Closed connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.2647 TRACE Opened connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.2647 TRACE SELECT TOP (1) 
+    [Project1].[C1] AS [C1], 
+    [Project1].[MigrationId] AS [MigrationId], 
+    [Project1].[Model] AS [Model], 
+    [Project1].[ProductVersion] AS [ProductVersion]
+    FROM ( SELECT 
+        [Extent1].[MigrationId] AS [MigrationId], 
+        [Extent1].[Model] AS [Model], 
+        [Extent1].[ProductVersion] AS [ProductVersion], 
+        1 AS [C1]
+        FROM [dbo].[__MigrationHistory] AS [Extent1]
+        WHERE [Extent1].[ContextKey] = @p__linq__0
+    )  AS [Project1]
+    ORDER BY [Project1].[MigrationId] DESC
+2017-01-15 19:12:16.2807 TRACE 
+
+2017-01-15 19:12:16.2807 TRACE -- p__linq__0: 'Data.Entity.RealmContext' (Type = String, Size = 4000)
+
+2017-01-15 19:12:16.2807 TRACE -- Executing at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.3317 TRACE -- Completed in 37 ms with result: SqlDataReader
+
+2017-01-15 19:12:16.3317 TRACE 
+
+2017-01-15 19:12:16.3417 TRACE Closed connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.3417 TRACE Opened connection at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.4297 TRACE SELECT TOP (2) 
+    [Extent1].[Id] AS [Id], 
+    [Extent1].[Email] AS [Email], 
+    [Extent1].[EmailConfirmed] AS [EmailConfirmed], 
+    [Extent1].[PasswordHash] AS [PasswordHash], 
+    [Extent1].[SecurityStamp] AS [SecurityStamp], 
+    [Extent1].[PhoneNumber] AS [PhoneNumber], 
+    [Extent1].[PhoneNumberConfirmed] AS [PhoneNumberConfirmed], 
+    [Extent1].[TwoFactorEnabled] AS [TwoFactorEnabled], 
+    [Extent1].[LockoutEndDateUtc] AS [LockoutEndDateUtc], 
+    [Extent1].[LockoutEnabled] AS [LockoutEnabled], 
+    [Extent1].[AccessFailedCount] AS [AccessFailedCount], 
+    [Extent1].[UserName] AS [UserName]
+    FROM [dbo].[AspNetUsers] AS [Extent1]
+    WHERE [Extent1].[Id] = @p__linq__0
+2017-01-15 19:12:16.4297 TRACE 
+
+2017-01-15 19:12:16.4377 TRACE -- p__linq__0: '16d0fe31-ed52-4c19-9bdd-85d7f9c54a5d' (Type = String, Size = 4000)
+
+2017-01-15 19:12:16.4377 TRACE -- Executing at 1/15/2017 7:12:16 PM -05:00
+
+2017-01-15 19:12:16.5155 TRACE -- Completed in 67 ms with result: SqlDataReader
+
+2017-01-15 19:12:16.5155 TRACE 
+
+2017-01-15 19:12:16.5305 TRACE Closed connection at 1/15/2017 7:12:16 PM -05:00
+
