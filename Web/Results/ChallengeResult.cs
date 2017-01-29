@@ -26,6 +26,7 @@ namespace Web.Results
 
             HttpResponseMessage response = new HttpResponseMessage(HttpStatusCode.Unauthorized);
             response.RequestMessage = Request;
+
             return Task.FromResult(response);
         }
     }

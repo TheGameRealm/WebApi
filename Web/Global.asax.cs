@@ -1,4 +1,6 @@
-﻿using NLog;
+﻿using Data.Entities;
+using Data.Entity;
+using NLog;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,9 +21,12 @@ namespace Web
         {
             AreaRegistration.RegisterAllAreas();
             GlobalConfiguration.Configure(WebApiConfig.Register);
+            AutoMapperConfig.Configure();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //ActivateDatabaseForCodeFirstRebuild();
 
             logger.Info("********** Application Start **********");
         }
@@ -54,6 +59,20 @@ namespace Web
             Response.Write("<h2>Global Page Error</h2>\n");
 
             Server.ClearError();
+        }
+
+        /// <summary>
+        /// Delete this method after the database is more fully implemented.
+        /// </summary>
+        private void ActivateDatabaseForCodeFirstRebuild()
+        {
+            using (var context = new RealmContext())
+            {
+                if (context.Maps.FirstOrDefault() != null)
+                {
+                    return;
+                }
+            }
         }
     }
 }

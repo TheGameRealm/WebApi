@@ -1,9 +1,10 @@
-﻿using Common.Entities;
+﻿using Common.DTOs;
+using Data.Entities;
 
 namespace Data.Repositories
 {
     public interface ISecurityRepository
     {
-        AspNetUser GetUser(string userId);
+        UserDTO GetUser(string userId);
     }
 }

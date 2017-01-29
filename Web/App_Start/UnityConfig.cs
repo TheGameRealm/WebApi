@@ -11,6 +11,8 @@ using Web.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Data.Entity;
 using Data.Repositories;
+using System.Web.Http;
+using Core.Providers;
 
 namespace Web.App_Start
 {
@@ -24,6 +26,7 @@ namespace Web.App_Start
         {
             var container = new UnityContainer();
             RegisterTypes(container);
+
             return container;
         });
 
@@ -47,14 +50,17 @@ namespace Web.App_Start
             container.RegisterType<DbContext, ApplicationDbContext>();
             container.RegisterType<ApplicationUserManager>();
             container.RegisterType<AccountController>(new InjectionConstructor());
-
+            container.RegisterType<HttpConfiguration>(new InjectionFactory(config => GlobalConfiguration.Configuration));
+            
             container.RegisterType<RealmContext>();
-
+            container.RegisterType<ILogger>(new InjectionFactory(logger => LogManager.GetCurrentClassLogger()));
             container.RegisterType<ISecureDataFormat<AuthenticationTicket>, SecureDataFormat<AuthenticationTicket>>();
 
-            container.RegisterType<ILogger>(new InjectionFactory(logger => LogManager.GetCurrentClassLogger()));
-
             container.RegisterType<ISecurityRepository, SecurityRepository>();
+            container.RegisterType<IMapRepository, MapRepository>();
+            container.RegisterType<IAlexaRepository, AlexaRepository>();
+
+            container.RegisterType<IIntentProvider, IntentProvider>();
             
         }
     }

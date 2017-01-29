@@ -95,3 +95,7 @@ D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\Common.dll
 D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\Common.pdb
 D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.dll
 D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\Microsoft.Practices.Unity.Mvc.xml
+D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\AutoMapper.Attributes.dll
+D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\AutoMapper.Attributes.xml
+D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\AutoMapper.dll
+D:\Projects\TheGameRealm\WebApi\Web.Tests\bin\Debug\AutoMapper.xml

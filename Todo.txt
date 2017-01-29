@@ -1,0 +1,11 @@
+1. Add Alexa request and response objects
+2. Add Account Login Link - Currently Limited to Admin Features
+3. Create additional Repositories
+4. Test database structure to make sure navigation behavior is correct.
+
+            //using (var context = new Data.Entity.RealmContext())
+            //{
+            //    var startingMap = context.Maps.Single(o => o.Level == 0);
+
+            //    return this.mapRepository.GetMap(startingMap.MapGuid);
+            //}

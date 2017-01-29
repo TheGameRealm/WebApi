@@ -1,4 +1,5 @@
-﻿using Common.Entities;
+﻿using Data.Entities;
+using Data.Entities.Alexa;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -15,8 +16,8 @@ namespace Data.Entity
 
         public RealmContext() : base("DefaultConnection")
         {
-            Database.SetInitializer(new CreateDatabaseIfNotExists<RealmContext>());
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<RealmContext>());
+            //Database.SetInitializer(new CreateDatabaseIfNotExists<RealmContext>());
+            Database.SetInitializer(new DatabaseInitializer());
             Database.Log = sqlString => logger.Trace(sqlString);
         } 
 
@@ -24,6 +25,9 @@ namespace Data.Entity
         public DbSet<Cell> Cells { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<Player> Players { get; set; }
+
+        public DbSet<AlexaMember> AlexaMembers { get; set; }
+        public DbSet<AlexaRequest> AlexaRequests { get; set; }
         
         public DbSet<AspNetUser> AspNetUsers { get; set; }
         public DbSet<AspNetRole> AspNetRoles { get; set; }

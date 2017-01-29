@@ -6,4 +6,5 @@ D:\Projects\TheGameRealm\WebApi\Common\bin\Debug\Common.dll
 D:\Projects\TheGameRealm\WebApi\Common\bin\Debug\Common.pdb
 D:\Projects\TheGameRealm\WebApi\Common\obj\Debug\Common.dll
 D:\Projects\TheGameRealm\WebApi\Common\obj\Debug\Common.pdb
-D:\Projects\TheGameRealm\WebApi\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Projects\TheGameRealm\WebApi\Common\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Debug\Newtonsoft.Json.xml

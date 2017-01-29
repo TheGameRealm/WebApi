@@ -1,4 +1,5 @@
-﻿using Common.Entities;
+﻿using Common.DTOs;
+using Data.Entities;
 using Data.Entity;
 using System;
 using System.Collections.Generic;
@@ -15,9 +16,11 @@ namespace Data.Repositories
 
         }
 
-        public AspNetUser GetUser(string userId)
+        public UserDTO GetUser(string userId)
         {
-            return base.Context.AspNetUsers.SingleOrDefault(o => o.Id == userId) ?? new AspNetUser();
+            var result = base.Context.AspNetUsers.SingleOrDefault(o => o.Id == userId) ?? new AspNetUser();
+
+            return AutoMapper.Mapper.Map<UserDTO>(result);
         }
 
     }
