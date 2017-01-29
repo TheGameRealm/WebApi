@@ -1,0 +1,6 @@
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Common.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Common.pdb
+D:\Projects\TheGameRealm\WebApi\Common\obj\Release\Common.dll
+D:\Projects\TheGameRealm\WebApi\Common\obj\Release\Common.pdb
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Newtonsoft.Json.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Newtonsoft.Json.xml

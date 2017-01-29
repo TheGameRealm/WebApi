@@ -34,6 +34,10 @@
       <HintPath>..\packages\AutoMapper.5.2.0\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="AutoMapper.Attributes, Version=5.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Attributes.5.0.1\lib\net45\AutoMapper.Attributes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
@@ -73,9 +77,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\AspNetRole.cs" />
+    <Compile Include="Entities\AspNetUser.cs" />
+    <Compile Include="Entities\AspNetUserClaim.cs" />
+    <Compile Include="Entities\AspNetUserLogin.cs" />
+    <Compile Include="Entities\AspNetUserRole.cs" />
+    <Compile Include="Entities\Cell.cs" />
+    <Compile Include="Entities\EntityBase.cs" />
+    <Compile Include="Entities\Item.cs" />
+    <Compile Include="Entities\Map.cs" />
+    <Compile Include="Entities\Alexa\AlexaMember.cs" />
+    <Compile Include="Entities\Player.cs" />
+    <Compile Include="Entities\Alexa\AlexaRequest.cs" />
+    <Compile Include="Entities\Alexa\AlexaRequest.partial.cs" />
+    <Compile Include="Repositories\AlexaRepository.cs" />
+    <Compile Include="Entity\DatabaseInitializer.cs" />
     <Compile Include="Entity\RealmContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\IAlexaRepository.cs" />
+    <Compile Include="Repositories\IMapRepository.cs" />
     <Compile Include="Repositories\ISecurityRepository.cs" />
+    <Compile Include="Repositories\MapRepository.cs" />
     <Compile Include="Repositories\RepositoryBase.cs" />
     <Compile Include="Repositories\SecurityRepository.cs" />
   </ItemGroup>

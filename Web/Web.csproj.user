@@ -8,6 +8,7 @@
     <IISExpressUseClassicPipelineMode>false</IISExpressUseClassicPipelineMode>
     <ProjectView>ProjectFiles</ProjectView>
     <UseGlobalApplicationHostFile />
+    <NameOfLastUsedPublishProfile>AzureRealms - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

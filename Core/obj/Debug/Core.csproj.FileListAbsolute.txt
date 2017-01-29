@@ -22,3 +22,8 @@ D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Microsoft.Practices.Unity.xml
 D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
 D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Microsoft.Practices.Unity.RegistrationByConvention.xml
 D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\NLog.xml
+D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Core.dll.config
+D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\AutoMapper.Attributes.dll
+D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\AutoMapper.Attributes.xml
+D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Newtonsoft.Json.dll
+D:\Projects\TheGameRealm\WebApi\Core\bin\Debug\Newtonsoft.Json.xml

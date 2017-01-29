@@ -61,9 +61,9 @@ namespace Web.Controllers
         [AllowAnonymous, HttpGet]
         public IHttpActionResult Init()
         {
-            //var model = new { Email = "", Password = "" };
-            //var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
-            //IdentityResult result = UserManager.CreateAsync(user, model.Password).Result;
+            var model = new { Email = "user@user.com", Password = "password" };
+            var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
+            IdentityResult result = UserManager.CreateAsync(user, model.Password).Result;
 
             return Ok();
         }
