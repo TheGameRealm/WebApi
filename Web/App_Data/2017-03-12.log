@@ -1,0 +1,55 @@
+2017-03-12 13:13:34.6835 INFO ********** Application Start ********** 
+2017-03-12 13:40:02.7233 INFO ********** Application Start ********** 
+2017-03-12 13:40:17.4349 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 13:40:19.1597 INFO Request.Type = IntentRequest 
+2017-03-12 13:40:20.0081 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 13:40:20.5658 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 13:40:27.9770 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:51:13.5679 INFO ********** Application Start ********** 
+2017-03-12 17:52:27.2518 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 17:52:28.9711 INFO Request.Type = IntentRequest 
+2017-03-12 17:52:29.8362 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:52:30.4158 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:52:37.8122 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:52:38.4108 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 17:52:38.9765 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 17:53:48.5375 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 17:53:51.9785 INFO Request.Type = IntentRequest 
+2017-03-12 17:53:52.8223 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:56:14.4295 INFO ********** Application Start ********** 
+2017-03-12 17:56:21.0705 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 17:56:22.7697 INFO Request.Type = IntentRequest 
+2017-03-12 17:56:23.6375 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:56:24.2079 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:58:42.8141 INFO ********** Application Start ********** 
+2017-03-12 17:58:52.3849 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 17:58:54.0098 INFO Request.Type = IntentRequest 
+2017-03-12 17:58:54.8692 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 17:58:55.4287 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:11:18.9554 INFO ********** Application Start ********** 
+2017-03-12 18:11:27.3249 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:11:28.9781 INFO Request.Type = IntentRequest 
+2017-03-12 18:11:29.8234 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:11:30.3803 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:11:55.0494 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 18:11:55.6119 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 18:12:37.3477 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:12:38.8478 INFO Request.Type = IntentRequest 
+2017-03-12 18:12:39.6760 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:12:49.3209 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 18:12:54.5209 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:12:56.0366 INFO Request.Type = IntentRequest 
+2017-03-12 18:12:56.8490 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:12:58.3034 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-03-12 18:31:50.5691 INFO ********** Application Start ********** 
+2017-03-12 18:32:51.1625 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:32:52.8500 INFO Request.Type = IntentRequest 
+2017-03-12 18:32:53.7094 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:32:54.2613 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:34:42.5068 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:34:44.0851 INFO Request.Type = IntentRequest 
+2017-03-12 18:34:44.9444 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:34:58.1191 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-03-12 18:34:59.6191 INFO Request.Type = IntentRequest 
+2017-03-12 18:35:00.4471 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 29688854-34fa-4726-a317-328283fa2f7a) 
+2017-03-12 18:43:10.3783 INFO ********** Application Start ********** 

@@ -1,0 +1,9 @@
+D:\Projects\TheGameRealm\WebApi\Database\bin\Release\Database.dacpac
+D:\Projects\TheGameRealm\WebApi\Database\bin\Release\Database.dll
+D:\Projects\TheGameRealm\WebApi\Database\bin\Release\Database.pdb
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\Model.xml
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\refactor.xml
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\postdeploy.sql
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\predeploy.sql
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\Database.dll
+D:\Projects\TheGameRealm\WebApi\Database\obj\Release\Database.pdb

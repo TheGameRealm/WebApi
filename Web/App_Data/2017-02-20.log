@@ -1,0 +1,161 @@
+2017-02-20 08:21:51.2524 INFO ********** Application Start ********** 
+2017-02-20 10:46:58.8072 INFO ********** Application Start ********** 
+2017-02-20 10:47:37.7091 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 10:47:38.0981 INFO Request.Type = IntentRequest 
+2017-02-20 10:47:38.2771 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:47:38.3720 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:47:39.3285 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:48:05.6107 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 10:48:05.8197 INFO Request.Type = IntentRequest 
+2017-02-20 10:48:05.9766 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:48:06.1636 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:48:26.3363 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 10:48:26.5433 INFO Request.Type = IntentRequest 
+2017-02-20 10:48:26.7463 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 10:48:26.9383 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:44:54.0551 INFO ********** Application Start ********** 
+2017-02-20 11:47:58.9228 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:47:59.3478 INFO Request.Type = IntentRequest 
+2017-02-20 11:47:59.5258 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:47:59.5992 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:48:14.8851 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 11:48:14.9651 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 11:49:13.2006 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:49:13.4066 INFO Request.Type = IntentRequest 
+2017-02-20 11:49:13.5636 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:49:13.7849 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:49:32.7610 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:49:32.9610 INFO Request.Type = IntentRequest 
+2017-02-20 11:49:33.1180 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:49:33.3152 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:49:52.8389 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:49:53.0379 INFO Request.Type = IntentRequest 
+2017-02-20 11:49:53.2279 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:49:53.3961 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 01c85522-d74a-4b2f-b6ed-1771e0916717) 
+2017-02-20 11:55:39.2289 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:55:39.4599 INFO Request.Type = IntentRequest 
+2017-02-20 11:55:39.6266 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 11:55:39.6982 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 11:57:31.5942 INFO ********** Application Start ********** 
+2017-02-20 11:58:00.5873 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 11:58:00.9584 INFO Request.Type = IntentRequest 
+2017-02-20 11:58:01.1404 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 11:58:01.2369 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:05:40.6455 INFO ********** Application Start ********** 
+2017-02-20 15:06:02.2137 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:06:02.6168 INFO Request.Type = IntentRequest 
+2017-02-20 15:06:02.8423 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:06:02.9350 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:06:03.5753 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:06:03.6441 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:06:03.6951 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:09:35.6496 INFO ********** Application Start ********** 
+2017-02-20 15:09:42.2611 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:09:42.6570 INFO Request.Type = IntentRequest 
+2017-02-20 15:09:42.8965 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:09:42.9952 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:09:43.9840 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:29:59.0673 INFO ********** Application Start ********** 
+2017-02-20 15:29:59.6143 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:30:00.0843 INFO Request.Type = IntentRequest 
+2017-02-20 15:30:00.3403 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:00.4263 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:01.2843 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:23.4222 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:30:23.6582 INFO Request.Type = IntentRequest 
+2017-02-20 15:30:23.8552 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:24.1022 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:44.2634 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:30:44.4934 INFO Request.Type = IntentRequest 
+2017-02-20 15:30:44.7134 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:30:44.8204 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:30:44.8884 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:30:44.9474 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:47:54.2045 INFO ********** Application Start ********** 
+2017-02-20 15:48:01.0737 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:48:01.4947 INFO Request.Type = IntentRequest 
+2017-02-20 15:48:01.7205 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:48:01.8145 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:48:02.4473 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:48:02.5453 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:48:02.5953 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 15:48:38.1327 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:48:38.3596 INFO Request.Type = IntentRequest 
+2017-02-20 15:48:38.5626 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:48:38.8286 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:50:57.6469 INFO ********** Application Start ********** 
+2017-02-20 15:51:09.2179 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 15:51:09.6110 INFO Request.Type = IntentRequest 
+2017-02-20 15:51:09.8439 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 15:51:09.9409 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 18:42:44.4864 INFO ********** Application Start ********** 
+2017-02-20 18:45:51.7776 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:45:52.1976 INFO Request.Type = IntentRequest 
+2017-02-20 18:45:52.4537 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 18:45:52.5455 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 18:50:01.1719 INFO ********** Application Start ********** 
+2017-02-20 18:50:13.5833 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:50:13.9833 INFO Request.Type = IntentRequest 
+2017-02-20 18:50:14.2150 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 18:50:14.3137 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 72bde582-5936-4f4d-b03e-738b2e60b8da) 
+2017-02-20 18:50:53.7458 INFO ********** Application Start ********** 
+2017-02-20 18:50:59.5614 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:50:59.9513 INFO Request.Type = IntentRequest 
+2017-02-20 18:54:13.0592 INFO ********** Application Start ********** 
+2017-02-20 18:54:24.6599 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:54:25.0109 INFO Request.Type = IntentRequest 
+2017-02-20 18:54:25.2902 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:54:25.3847 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:54:38.3189 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:54:38.3649 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 18:54:38.4549 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 18:55:41.8640 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:55:42.1099 INFO Request.Type = IntentRequest 
+2017-02-20 18:55:42.3229 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:55:42.5883 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:55:42.6313 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 18:55:58.3496 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:55:58.5716 INFO Request.Type = IntentRequest 
+2017-02-20 18:55:58.7896 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:55:59.0106 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:55:59.0622 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 18:56:20.1833 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 18:56:20.4223 INFO Request.Type = IntentRequest 
+2017-02-20 18:56:20.6433 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 18:56:20.7223 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:18:48.3052 INFO ********** Application Start ********** 
+2017-02-20 19:19:05.4374 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:19:05.8174 INFO Request.Type = IntentRequest 
+2017-02-20 19:19:06.0604 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:19:06.1577 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:19:06.8007 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:19:06.8798 TRACE AddCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:19:06.9327 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:19:26.7916 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:19:27.0416 INFO Request.Type = IntentRequest 
+2017-02-20 19:19:27.2457 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:19:27.5183 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:19:40.8485 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:19:41.0685 INFO Request.Type = IntentRequest 
+2017-02-20 19:19:41.2705 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:19:41.5015 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:20:06.7190 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:20:06.9460 INFO Request.Type = IntentRequest 
+2017-02-20 19:20:07.1510 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:20:07.2198 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:20:07.2668 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:20:27.7300 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:20:27.9670 INFO Request.Type = IntentRequest 
+2017-02-20 19:20:28.1775 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:20:28.2554 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:21:48.0333 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:21:56.0759 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:21:56.3169 INFO Request.Type = IntentRequest 
+2017-02-20 19:21:56.5349 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:21:56.6300 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:21:56.6739 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:22:10.3542 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-20 19:22:10.5701 INFO Request.Type = IntentRequest 
+2017-02-20 19:22:10.7885 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Cell]>(key = 18daadb8-1f3d-4646-9dbb-69d2904b2b5e) 
+2017-02-20 19:22:10.8805 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 
+2017-02-20 19:22:10.9285 TRACE GetCache<System.Collections.Generic.List`1[Data.Entities.Item]>(key = Items) 

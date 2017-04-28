@@ -71,7 +71,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\IIntentProvider.cs" />
     <Compile Include="Providers\IntentProvider.cs" />
+    <Compile Include="Providers\IntentStrategy\DropIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\GetIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\AreaIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\GoIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\IIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\IntentBase.cs" />
+    <Compile Include="Providers\IntentStrategy\ToggleIntent.cs" />
+    <Compile Include="Providers\IntentStrategy\UseIntent.cs" />
+    <Compile Include="Providers\ISecurityProvider.cs" />
     <Compile Include="Providers\ProviderBase.cs" />
+    <Compile Include="Providers\SecurityProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">

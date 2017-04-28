@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="82664631-a2f1-46ff-a14b-1d9408773360" ChangeDateTime="03/12/2017 15:28:43">
+    <Property Name="ElementName" Value="[dbo].[Cells].[PortalDescription]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cells]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortalDirection" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0451703f-fc42-4cd3-aecb-d1d6054688e6" ChangeDateTime="03/12/2017 17:01:17">
+    <Property Name="ElementName" Value="[dbo].[Cells].[PortalDirection]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Cells]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PortalDirections" />
+  </Operation>
+</Operations>

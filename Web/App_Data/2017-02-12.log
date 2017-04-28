@@ -1,0 +1,16 @@
+2017-02-12 14:30:55.1305 INFO ********** Application Start ********** 
+2017-02-12 14:32:06.7962 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 14:32:07.1361 INFO Request.Type = IntentRequest 
+2017-02-12 18:22:56.9642 INFO ********** Application Start ********** 
+2017-02-12 18:23:38.0910 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:25:30.1062 INFO ********** Application Start ********** 
+2017-02-12 18:25:33.5531 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:25:36.4371 INFO Request.Type = IntentRequest 
+2017-02-12 18:25:59.7288 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:26:13.0227 INFO Request.Type = IntentRequest 
+2017-02-12 18:26:52.4808 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:26:52.6038 INFO Request.Type = IntentRequest 
+2017-02-12 18:27:21.6996 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:27:21.8236 INFO Request.Type = IntentRequest 
+2017-02-12 18:27:54.2270 TRACE Parameter alexaRequestModel (Type: Common.Models.AlexaRequestModel) with value of 'Common.Models.AlexaRequestModel' 
+2017-02-12 18:27:54.3500 INFO Request.Type = IntentRequest 

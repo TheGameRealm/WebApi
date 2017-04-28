@@ -1,33 +1,36 @@
-﻿using AutoMapper.Attributes;
-using Common.DTOs;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+#pragma warning disable 1591    //  Ignore "Missing XML Comment" warning
+
 
 namespace Data.Entities
 {
-    [MapsTo(typeof(PlayerDTO), ReverseMap = true)]
-    public class Player : EntityBase
+
+    // Players
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
+    public partial class Player
     {
+        public System.Guid PlayerId { get; set; } // PlayerId (Primary key)
+        public string Name { get; set; } // Name (length: 50)
+        public System.Guid MapRefId { get; set; } // MapRefId
+        public int LocationX { get; set; } // LocationX
+        public int LocationY { get; set; } // LocationY
+        public int Level { get; set; } // Level
+        public int Gold { get; set; } // Gold
+        public int Toughness { get; set; } // Toughness
+        public int Energy { get; set; } // Energy
+        public System.Guid AccountRefId { get; set; } // AccountRefId
+        public int Verbosity { get; set; } // Verbosity
+
+        // Reverse navigation
+        public virtual System.Collections.Generic.ICollection<Inventory> Inventories { get; set; } // Inventory.FK_Inventory_Players
+
         public Player()
         {
-            this.PlayerGuid = Guid.Empty;
-            this.Name = string.Empty;
-            this.MapGuid = Guid.Empty;
-            this.User = new AspNetUser();
+            Verbosity = 7;
+            Inventories = new System.Collections.Generic.List<Inventory>();
+            InitializePartial();
         }
-        
-        [Key]
-        public Guid PlayerGuid { get; set; }
-        [StringLength(50), Required]
-        public string Name { get; set; }
-        public Guid MapGuid { get; set; }
-        public int LocationX { get; set; }
-        public int LocationY { get; set; }
 
-        public AspNetUser User { get; set; }
+        partial void InitializePartial();
     }
+
 }

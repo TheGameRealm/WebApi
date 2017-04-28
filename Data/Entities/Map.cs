@@ -1,35 +1,30 @@
-﻿using AutoMapper.Attributes;
-using Common.DTOs;
-using Common.Static;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+#pragma warning disable 1591    //  Ignore "Missing XML Comment" warning
+
 
 namespace Data.Entities
 {
-    [MapsTo(typeof(MapDTO), ReverseMap = true)]
-    public partial class Map : EntityBase
+
+    // Maps
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
+    public partial class Map
     {
+        public System.Guid MapId { get; set; } // MapId (Primary key)
+        public string Name { get; set; } // Name (length: 128)
+        public string Description { get; set; } // Description (length: 256)
+        public int Level { get; set; } // Level
+
+        // Reverse navigation
+        public virtual System.Collections.Generic.ICollection<Cell> GotoMapRef { get; set; } // Cells.FK_Cells_Maps_Portal
+        public virtual System.Collections.Generic.ICollection<Cell> MapRef { get; set; } // Cells.FK_Cells_Maps
+
         public Map()
         {
-            this.MapGuid = Guid.Empty;
-            this.Name = StaticText.Void;
-            this.Description = StaticText.Nothing;
-
-            this.Cells = new List<Cell>();
+            GotoMapRef = new System.Collections.Generic.List<Cell>();
+            MapRef = new System.Collections.Generic.List<Cell>();
+            InitializePartial();
         }
 
-        [Key]
-        public Guid MapGuid { get; set; }
-        [StringLength(128), Required]
-        public string Name { get; set; }
-        [StringLength(256)]
-        public string Description { get; set; }
-        public int Level { get; set; }
-
-        public virtual ICollection<Cell> Cells { get; set; }
+        partial void InitializePartial();
     }
+
 }
