@@ -7,23 +7,11 @@ using System.Threading.Tasks;
 
 namespace Common.DTOs
 {
-    public class ItemDTO : DTOBase
+    public partial class ItemDTO
     {
-        public ItemDTO()
-        {
-            this.ItemGuid = Guid.Empty;
-            this.Name = nameof(StaticText.Rock);
-            this.Description = StaticText.Rock;
-            this.isWeapon = false;
-            this.isUsable = false;
-            this.Weight = 1;
-        }
-
-        public Guid ItemGuid { get; set; }
+        public Guid ItemId { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public bool isWeapon { get; set; }
-        public bool isUsable { get; set; }
         public int Weight { get; set; }
     }
 }

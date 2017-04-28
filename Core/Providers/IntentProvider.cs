@@ -1,196 +1,152 @@
-﻿using Common.Models;
-using Data.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Core.Providers
+﻿namespace Core.Providers
 {
-    /// <summary>
-    /// Todo: 
-    /// Player Persistance
-    /// Map Interaction
-    /// Map Item Interaction (Move Items to/from Inventory to map location)
-    /// Inventory Management
-    /// Combat
-    /// Quests
-    /// NPC Interaction
-    /// Scoring? Achievements? Character Level?
-    /// </summary>
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
+    using Common.Models;
+    using IntentStrategy;
+    using Common.Static;
+    using Data.Repositories;
+    using Common.Enums;
+
     public class IntentProvider : ProviderBase, IIntentProvider
     {
-        private IAlexaRepository alexaRepository { get; set; }
-        private List<Func<AlexaRequestModel, string>> intents { get; set; }
-        private List<string> validDirections = new List<string>() { "north", "east", "south", "west" };
-        private List<string> validItems = new List<string>() { "key", "rock", "knife" };
+        private readonly IEnumerable<Type> intentStrategyClasses;
 
+        public IntentProvider() : this(new PlayerRepository(), 
+            new MapRepository()) { }
 
-        public IntentProvider(IAlexaRepository alexaRepository)
+        public IntentProvider(IPlayerRepository playerRepository,
+            IMapRepository mapRepository) : base(playerRepository, mapRepository)
         {
-            this.alexaRepository = alexaRepository;
+            var intentType = typeof(IIntent);
 
-            this.intents = new List<Func<AlexaRequestModel, string>>();
-            this.intents.Add(this.GoIntent);
-            this.intents.Add(this.PortalIntent);
-            this.intents.Add(this.GetIntent);
-            this.intents.Add(this.UseIntent);
-            this.intents.Add(this.DropIntent);
+            this.intentStrategyClasses = AppDomain.CurrentDomain.GetAssemblies()
+                .SelectMany(s => s.GetTypes())
+                .Where(p => intentType.IsAssignableFrom(p) && !p.IsInterface);
         }
 
         public AlexaResponseModel LaunchRequest(AlexaRequestModel alexaRequestModel)
         {
-            var response = new AlexaResponseModel("You've entered the Realm");
+            var alexaResponseModel = BuildAlexaResponseModel();
 
-            // Prepare game for user
+            var intentModel = BuildIntentModel(alexaRequestModel, alexaResponseModel);
 
-            //response.Session.MemberId = alexaRequestModel.Session.Attributes.MemberId;
-            response.Response.Card.Title = "The Realm";
-            response.Response.Card.Content = "You've entered the realm";
-            response.Response.Reprompt.OutputSpeech.Text = "What would you like to do?";
-            response.Response.ShouldEndSession = false;
+            intentModel.Output.Append(StaticText.LaunchIntent_Welcome);
 
-            return response;
+            BuildOutput(intentModel);
+
+            FinalizeOutput(intentModel);
+
+            return intentModel.Response;
         }
 
         public AlexaResponseModel SessionEndedRequest(AlexaRequestModel alexaRequestModel)
         {
-            var response = new AlexaResponseModel("You've left the Realm");
+            var intentModel = BuildIntentModel(alexaRequestModel, BuildAlexaResponseModel());
 
-            // Cleanup Work here
+            intentModel.Output.Append(StaticText.SessionEndedRequest_Goodbye);
+            intentModel.Response.Response.ShouldEndSession = true;
 
-            //response.Session.MemberId = alexaRequestModel.Session.Attributes.MemberId;
-            response.Response.Card.Title = "The Realm";
-            response.Response.Card.Content = "You've left the realm";
-            response.Response.Reprompt.OutputSpeech.Text = "";
-            response.Response.ShouldEndSession = true;
+            BuildOutput(intentModel);
 
-            return response;
+            FinalizeOutput(intentModel);
+
+            return intentModel.Response;
+        }
+
+        public AlexaResponseModel HelpRequest(AlexaRequestModel alexaRequestModel)
+        {
+            var intentModel = BuildIntentModel(alexaRequestModel, BuildAlexaResponseModel());
+
+            var value = base.GetSlotValue(intentModel.Request, "item");
+
+            var output = new StringBuilder();
+
+            output.Append("The Realm Help Menu");
+            output.Append("Movement actions are Go, Move, or Travel followed by a direction such as north, south, east, or west.");
+            output.Append("Item actions are Get, Drop, or Use followed by the item name.");
+            output.Append("The following toggle are available to improve game play. ");
+            output.Append("Toggle area will toggle the general area description. ");
+            output.Append("Toggle directions will toggle announcements of the travel directions. ");
+            output.Append("Toggle items will toggle the announcement of items on the ground. ");
+
+            intentModel.Output.Append(output);
+
+            FinalizeOutput(intentModel);
+
+            return intentModel.Response;
         }
 
         public AlexaResponseModel IntentRequest(AlexaRequestModel alexaRequestModel)
         {
-            var result = this.intents.SingleOrDefault(o => o.Method.Name == alexaRequestModel.Request.Intent.Name)(alexaRequestModel);
+            var alexaResponseModel = BuildAlexaResponseModel();
 
-            if (result == null)
+            var intentModel = BuildIntentModel(alexaRequestModel, alexaResponseModel);
+
+            var intentClass = this.intentStrategyClasses
+                .SingleOrDefault(o => o.GetField(StaticText.IntentType)
+                .GetValue(null).ToString() == alexaRequestModel.Request.Intent.Name);
+
+            if (intentClass != null)
             {
-                result = "I didn't understand the command.";
+                var intentStrategyClass = (IIntent)Activator.CreateInstance(intentClass);
+
+                intentStrategyClass.Execute(intentModel);
             }
 
-            var response = new AlexaResponseModel(result);
-            //response.Session.MemberId = alexaRequestModel.Session.Attributes.MemberId;
-            response.Response.Card.Title = "The Realm";
-            response.Response.Reprompt.OutputSpeech.Text = "What do you want to do?";
-            response.Response.ShouldEndSession = false;
+            BuildOutput(intentModel);
 
-            return response;
+            FinalizeOutput(intentModel);
+
+            return intentModel.Response;
         }
 
-        private string GoIntent(AlexaRequestModel alexaRequestModel)
+        private static AlexaResponseModel BuildAlexaResponseModel()
         {
-            var value = base.GetSlotValue(alexaRequestModel, "direction");
-            var valid = base.IsSlotValueValid(this.validDirections, value);
+            var alexaResponseModel = new AlexaResponseModel();
+            alexaResponseModel.Response.Card.Title = StaticText.GameTitle;
+            alexaResponseModel.Response.Card.Content = StaticText.PromptForInput;
+            alexaResponseModel.Response.Reprompt.OutputSpeech.Text = StaticText.RepromptForInput;
+            alexaResponseModel.Response.ShouldEndSession = false;
 
-            if (value != null)
+            return alexaResponseModel;
+        }
+
+        private IntentModel BuildIntentModel(AlexaRequestModel alexaRequestModel, AlexaResponseModel alexaResponseModel)
+        {
+            var playerId = base.CustomPrincipal.PlayerId;
+            var playerDto = base.PlayerRepository.GetPlayer(playerId);
+            var mapDto = base.MapRepository.GetMap(playerDto.MapRefId);
+            var cellDto = base.MapRepository.GetCell(playerDto.MapRefId, playerDto.LocationX, playerDto.LocationY);
+
+            var intentModel = new IntentModel()
             {
-                if (valid)
-                {
-                    return $"You've traveled {value}.";
-                }
-            }
+                Request = alexaRequestModel,
+                Response = alexaResponseModel,
+                Player = playerDto,
+                Map = mapDto,
+                Cell = cellDto
+            };
 
-            return "You can't go that way.";
+            return intentModel;
+        }
+        
+        private void BuildOutput(IntentModel intentModel)
+        {
+            if (intentModel.Player.Verbosity.HasFlag(Verbosity.AreaDescription))
+                intentModel.Output.Append(BuildAreaDescription(intentModel));
+            if (intentModel.Player.Verbosity.HasFlag(Verbosity.Direction))
+                intentModel.Output.Append(BuildDirectionOutput(intentModel));
+            if (intentModel.Player.Verbosity.HasFlag(Verbosity.CellItems))
+                intentModel.Output.Append(BuildCellItemsOutput(intentModel));
         }
 
-        private string PortalIntent(AlexaRequestModel alexaRequestModel)
+        private static void FinalizeOutput(IntentModel intentModel)
         {
-            return "You entered the portal.";
-        }
-
-        private string GetIntent(AlexaRequestModel alexaRequestModel)
-        {
-            var value = base.GetSlotValue(alexaRequestModel, "item");
-            var valid = base.IsSlotValueValid(this.validItems, value);
-
-            if (value != null)
-            {
-                if (valid)
-                {
-                    return $"You picked up the {value} and put it in your satchel.";
-                }
-                else
-                {
-                    return $"I don't see a {value}.";
-                }
-            }
-
-            return "What do you want to get?";
-        }
-
-        private string UseIntent(AlexaRequestModel alexaRequestModel)
-        {
-            var value = base.GetSlotValue(alexaRequestModel, "item");
-            var valid = base.IsSlotValueValid(this.validItems, value);
-
-            if (value != null)
-            {
-                if (valid)
-                {
-                    var action = string.Empty;
-                    switch (value)
-                    {
-                        case "key":
-                            {
-                                action = "There is nothing to unlock here.";
-                                break;
-                            }
-                        case "rock":
-                            {
-                                action = "How do you use a rock?";
-                                break;
-                            }
-                        case "knife":
-                            {
-                                action = "You're now holding the knife.";
-                                break;
-                            }
-                        default:
-                            {
-                            action = $"You don't have a {value}.";
-                            break;
-                            }
-                    }
-
-                    return action;
-                }
-                else
-                {
-                    return $"You don't have a {value}";
-                }
-            }
-
-            return "What do you want to use?";
-        }
-
-        private string DropIntent(AlexaRequestModel alexaRequestModel)
-        {
-            var value = base.GetSlotValue(alexaRequestModel, "item");
-            var valid = base.IsSlotValueValid(this.validItems, value);
-
-            if (value != null)
-            {
-                if (valid)
-                {
-                    return $"You dropped the {value}.";
-                }
-                else
-                {
-                    return $"You don't have a {value}.";
-                }
-            }
-
-            return "What do you want to drop?";
+            intentModel.Response.Response.Card.Content = intentModel.Output.ToString();
+            intentModel.Response.Response.OutputSpeech.Text = intentModel.Output.ToString();
         }
 
     }

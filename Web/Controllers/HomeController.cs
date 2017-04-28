@@ -10,11 +10,9 @@ namespace Web.Controllers
 {
     public class HomeController : Controller
     {
-        private ISecurityRepository securityRepository { get; set; }
-
-        public HomeController(ISecurityRepository securityRepository)
+        public HomeController()
         {
-            this.securityRepository = securityRepository;
+
         }
 
         public ActionResult Index()

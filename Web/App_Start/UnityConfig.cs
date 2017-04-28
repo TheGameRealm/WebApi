@@ -1,18 +1,17 @@
-using System;
-using Microsoft.Practices.Unity;
-using Microsoft.Practices.Unity.Configuration;
-using Microsoft.Owin.Security.DataHandler;
-using Microsoft.Owin.Security;
-using NLog;
+using Core.Providers;
+using Data.Repositories;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.DataHandler;
+using Microsoft.Practices.Unity;
+using NLog;
+using System;
 using System.Data.Entity;
+using System.Web.Http;
 using Web.Controllers;
 using Web.Models;
-using Microsoft.AspNet.Identity.EntityFramework;
-using Data.Entity;
-using Data.Repositories;
-using System.Web.Http;
-using Core.Providers;
+using Data.Entities;
 
 namespace Web.App_Start
 {
@@ -45,21 +44,13 @@ namespace Web.App_Start
         /// change the defaults), as Unity allows resolving a concrete type even if it was not previously registered.</remarks>
         public static void RegisterTypes(IUnityContainer container)
         {
-            container.RegisterType<IUserStore<ApplicationUser>, UserStore<ApplicationUser>>();
-            container.RegisterType<UserManager<ApplicationUser>>();
-            container.RegisterType<DbContext, ApplicationDbContext>();
-            container.RegisterType<ApplicationUserManager>();
-            container.RegisterType<AccountController>(new InjectionConstructor());
-            container.RegisterType<HttpConfiguration>(new InjectionFactory(config => GlobalConfiguration.Configuration));
-            
-            container.RegisterType<RealmContext>();
-            container.RegisterType<ILogger>(new InjectionFactory(logger => LogManager.GetCurrentClassLogger()));
-            container.RegisterType<ISecureDataFormat<AuthenticationTicket>, SecureDataFormat<AuthenticationTicket>>();
+            //container.RegisterType<DbContext, RealmContext>(new PerRequestLifetimeManager(), new InjectionConstructor());
+            //container.RegisterType<ILogger>(new InjectionFactory(logger => LogManager.GetCurrentClassLogger()));
 
-            container.RegisterType<ISecurityRepository, SecurityRepository>();
+            container.RegisterType<IPlayerRepository, PlayerRepository>();
             container.RegisterType<IMapRepository, MapRepository>();
-            container.RegisterType<IAlexaRepository, AlexaRepository>();
-
+            
+            container.RegisterType<ISecurityProvider, SecurityProvider>();
             container.RegisterType<IIntentProvider, IntentProvider>();
             
         }

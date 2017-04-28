@@ -1,5 +1,4 @@
 ﻿using Data.Entities;
-using Data.Entity;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -15,7 +14,7 @@ namespace Web
 {
     public class WebApiApplication : System.Web.HttpApplication
     {
-        private static ILogger logger = LogManager.GetCurrentClassLogger();
+        private static readonly ILogger logger = LogManager.GetCurrentClassLogger();
 
         protected void Application_Start()
         {
@@ -26,7 +25,7 @@ namespace Web
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            //ActivateDatabaseForCodeFirstRebuild();
+            ActivateDatabaseForCodeFirstRebuild();
 
             logger.Info("********** Application Start **********");
         }

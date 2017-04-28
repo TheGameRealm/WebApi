@@ -1,36 +1,30 @@
-﻿using AutoMapper.Attributes;
-using Common.DTOs;
-using Common.Static;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+#pragma warning disable 1591    //  Ignore "Missing XML Comment" warning
+
 
 namespace Data.Entities
 {
-    [MapsTo(typeof(ItemDTO), ReverseMap = true)]
-    public class Item : EntityBase
+
+    // Items
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
+    public partial class Item
     {
+        public System.Guid ItemId { get; set; } // ItemId (Primary key)
+        public string Name { get; set; } // Name (length: 128)
+        public string Description { get; set; } // Description (length: 256)
+        public string Weight { get; set; } // Weight (length: 10)
+
+        // Reverse navigation
+        public virtual System.Collections.Generic.ICollection<CellItem> CellItems { get; set; } // CellItems.FK_CellItems_Items
+        public virtual System.Collections.Generic.ICollection<Inventory> Inventories { get; set; } // Inventory.FK_Inventory_Items
+
         public Item()
         {
-            this.ItemGuid = Guid.Empty;
-            this.Name = nameof(StaticText.Rock);
-            this.Description = StaticText.Rock;
-            this.isWeapon = false;
-            this.isUsable = false;
-            this.Weight = 1;
+            CellItems = new System.Collections.Generic.List<CellItem>();
+            Inventories = new System.Collections.Generic.List<Inventory>();
+            InitializePartial();
         }
 
-        [Key]
-        public Guid ItemGuid { get; set; }
-        [StringLength(128), Required]
-        public string Name { get; set; }
-        [StringLength(256)]
-        public string Description { get; set; }
-        public bool isWeapon { get; set; }
-        public bool isUsable { get; set; }
-        public int Weight { get; set; }
+        partial void InitializePartial();
     }
+
 }

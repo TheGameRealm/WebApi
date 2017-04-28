@@ -1,11 +1,37 @@
-1. Add Alexa request and response objects
-2. Add Account Login Link - Currently Limited to Admin Features
-3. Create additional Repositories
-4. Test database structure to make sure navigation behavior is correct.
+1. Add "Use" abilities
+	- Determine best implementation for flexibility
+2. Add "Enemies"
+	- Enemies block path directions (one or more paths?)
+	- Rewards from defeating enemies
 
-            //using (var context = new Data.Entity.RealmContext())
-            //{
-            //    var startingMap = context.Maps.Single(o => o.Level == 0);
+3. Enlarge Maps, Add more details
 
-            //    return this.mapRepository.GetMap(startingMap.MapGuid);
-            //}
+4. Determine if items need to respawn
+	- How to implement Respawning of items.
+
+5. Add more intents
+	- Inspect/Look Item
+	- Search Area? (Hidden Items -> Add Hidden Attribute)
+	- Road maps? -> Hints?
+	- Item Properties 
+		- Limit carrying weight
+		- Add Item is object property
+			- Not Movable or obtainable
+			- Allow interaction for quests?
+	
+6. Player Stats
+	- Equiped Items
+	- Ability to Equip/Unequip Items
+
+7. Future Option:
+	- Notify if other player in same cell
+	- Build queue of attacks messages against enemies to notify multiple players that actions are taking place.
+	- Notify player that another player has moved in a specific direction
+
+8. Complete Quest/Rewards
+
+9. Add NPC's for buying/selling items
+10 Add NPC's for giving quests
+	- Build Quest Chains
+
+

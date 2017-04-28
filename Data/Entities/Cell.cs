@@ -1,48 +1,39 @@
-﻿using AutoMapper.Attributes;
-using Common.DTOs;
-using Common.Static;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+#pragma warning disable 1591    //  Ignore "Missing XML Comment" warning
+
 
 namespace Data.Entities
 {
-    [MapsTo(typeof(CellDTO), ReverseMap = true)]
+
+    // Cells
+    [System.CodeDom.Compiler.GeneratedCode("EF.Reverse.POCO.Generator", "2.28.0.0")]
     public partial class Cell
     {
+        public System.Guid CellId { get; set; } // CellId (Primary key)
+        public string Description { get; set; } // Description (length: 256)
+        public int LocationX { get; set; } // LocationX
+        public int LocationY { get; set; } // LocationY
+        public int Directions { get; set; } // Directions
+        public string PathDescription { get; set; } // PathDescription
+        public int? PortalDirections { get; set; } // PortalDirections
+        public System.Guid? GotoMapRefId { get; set; } // GotoMapRefId
+        public int? GotoX { get; set; } // GotoX
+        public int? GotoY { get; set; } // GotoY
+        public System.Guid? MapRefId { get; set; } // MapRefId
+
+        // Reverse navigation
+        public virtual System.Collections.Generic.ICollection<CellItem> CellItems { get; set; } // CellItems.FK_CellItems_Cells
+
+        // Foreign keys
+        public virtual Map GotoMapRef { get; set; } // FK_Cells_Maps_Portal
+        public virtual Map MapRef { get; set; } // FK_Cells_Maps
+
         public Cell()
         {
-            this.CellGuid = Guid.Empty;
-            this.Description = StaticText.Nothing;
-            this.isHostile = false;
-            this.hasPortal = false;
-            this.PortalDescription = string.Empty;
-            this.canGoEast = false;
-            this.canGoNorth = false;
-            this.canGoSouth = false;
-            this.canGoWest = false;
+            CellItems = new System.Collections.Generic.List<CellItem>();
+            InitializePartial();
         }
 
-        [Key]
-        public Guid CellGuid { get; set; }
-        public Map Map { get; set; }
-        [StringLength(256)]
-        public string Description { get; set; }
-        public bool isHostile { get; set; }
-        public int LocationX { get; set; }
-        public int LocationY { get; set; }
-        public bool hasPortal { get; set; }
-        [StringLength(256)]
-        public string PortalDescription { get; set; }
-        public Guid? GotoMap { get; set; }
-        public int? GotoX { get; set; }
-        public int? GotoY { get; set; }
-        public bool canGoEast { get; set; }
-        public bool canGoNorth { get; set; }
-        public bool canGoSouth { get; set; }
-        public bool canGoWest { get; set; }
+        partial void InitializePartial();
     }
+
 }

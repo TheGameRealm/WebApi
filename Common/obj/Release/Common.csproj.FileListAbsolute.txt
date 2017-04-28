@@ -4,3 +4,11 @@ D:\Projects\TheGameRealm\WebApi\Common\obj\Release\Common.dll
 D:\Projects\TheGameRealm\WebApi\Common\obj\Release\Common.pdb
 D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Newtonsoft.Json.dll
 D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Newtonsoft.Json.xml
+D:\Projects\TheGameRealm\WebApi\Common\obj\Release\Common.csprojResolveAssemblyReference.cache
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\Common.dll.config
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\AutoMapper.Attributes.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\AutoMapper.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\AutoMapper.xml
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\AutoMapper.Attributes.xml
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\NLog.dll
+D:\Projects\TheGameRealm\WebApi\Common\bin\Release\NLog.xml

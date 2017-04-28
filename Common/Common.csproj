@@ -30,8 +30,20 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.2.0\lib\net45\AutoMapper.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="AutoMapper.Attributes, Version=5.0.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.Attributes.5.0.1\lib\net45\AutoMapper.Attributes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.4.3\lib\net45\NLog.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
@@ -45,27 +57,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DTOs\Alexa\AlexaMemberDTO.cs" />
+    <Compile Include="DTOs\Alexa\AlexaAccountDTO.cs" />
     <Compile Include="DTOs\Alexa\AlexaRequestDTO.partial.cs" />
     <Compile Include="DTOs\Alexa\AlexaRequestDTO.cs" />
     <Compile Include="DTOs\CellDTO.cs" />
-    <Compile Include="DTOs\DTOBase.cs" />
+    <Compile Include="DTOs\CellItemDTO.cs" />
+    <Compile Include="DTOs\ConfigDTO.cs" />
     <Compile Include="DTOs\ItemDTO.cs" />
     <Compile Include="DTOs\PlayerDTO.cs" />
-    <Compile Include="DTOs\UserClaimDTO.cs" />
-    <Compile Include="DTOs\UserDTO.cs" />
-    <Compile Include="DTOs\RoleDTO.cs" />
     <Compile Include="DTOs\MapDTO.cs" />
-    <Compile Include="DTOs\UserLoginDTO.cs" />
-    <Compile Include="DTOs\UserRoleDTO.cs" />
+    <Compile Include="DTOs\InventoryDTO.cs" />
+    <Compile Include="Enums\Directions.cs" />
+    <Compile Include="Enums\Verbosity.cs" />
+    <Compile Include="Extensions\EnumExtensions.cs" />
+    <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Models\AlexaRequestModel.cs" />
     <Compile Include="Models\AlexaResponseModel.cs" />
+    <Compile Include="Models\IntentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\CustomPrincipal.cs" />
+    <Compile Include="Security\ICustomPrincipal.cs" />
     <Compile Include="Static\StaticText.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

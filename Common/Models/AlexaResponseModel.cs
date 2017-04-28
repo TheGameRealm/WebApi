@@ -57,8 +57,8 @@ namespace Common.Models
         [JsonObject("sessionAttributes")]
         public class ResponseSessionAttributes
         {
-            [JsonProperty("memberId")]
-            public int MemberId { get; set; }
+            //[JsonProperty("customProperty")]
+            //public int customProperty { get; set; }
         }
 
         [JsonObject("response")]
@@ -78,7 +78,7 @@ namespace Common.Models
 
             public ResponseAttributes()
             {
-                ShouldEndSession = true;
+                ShouldEndSession = false;
                 OutputSpeech = new OutputSpeechAttributes();
                 Card = new CardAttributes();
                 Reprompt = new RepromptAttributes();
